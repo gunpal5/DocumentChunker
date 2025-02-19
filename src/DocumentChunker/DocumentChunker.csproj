@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;net7.0;net8.0;netstandard2.0;net9.0;net462</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <PackageId>$(AssemblyName)</PackageId>
+        <Title>Document Chunker SDK</Title>
+        <Authors>Gunpal Jain</Authors>
+        <Company/>
+        <Description>Document Chunker SDK for splitting large text contents from documents like DOCX, PDF, and HTML into smaller chunks.</Description>
+        <PackageProjectUrl>https://github.com/gunpal5/DocumentChunker</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/gunpal5/DocumentChunker</RepositoryUrl>
+        <PackageTags>DocumentChunker,Document,Chunking,DOCX,PDF,HTML,TextProcessing</PackageTags>
+        <Version>1.0.0</Version>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <SignAssembly>True</SignAssembly>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="DocumentFormat.OpenXml" Version="3.2.0"/>
+        <PackageReference Include="HtmlAgilityPack" Version="1.11.72"/>
+        <PackageReference Include="PdfPig" Version="0.1.9"/>
+    </ItemGroup>
+    
+    <ItemGroup Condition="$(TargetFramework) == net462">
+        <Reference Include="System.Net.Http"/>
+        <PackageReference Include="Microsoft.Bcl.AsyncInterfaces"/>
+    </ItemGroup>
+    <ItemGroup Condition="$(TargetFramework) == 'netstandard2.0'">
+        
+        <PackageReference Include="Microsoft.Bcl.AsyncInterfaces"/>
+    </ItemGroup>
+
+</Project>

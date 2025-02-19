@@ -1,0 +1,19 @@
+NOTICE
+
+This project includes and modifies portions of open source software as follows:
+
+1) HtmlChunker
+   • .NET port of https://github.com/google/labs-prototypes/blob/main/seeds/chunker-python/src/google_labs_html_chunker/html_chunker.py
+   • Copyright 2023 Google LLC
+
+2) PDF Pig
+   • Utilized in binary form to extract information from PDF documents
+   • This product is derived from software developed at The Apache Software Foundation (http://www.apache.org/).
+   • Based on source code originally developed in the PDFBox and FontBox projects.
+   • Copyright (c) 2002–2007, www.pdfbox.org
+   • Includes the Adobe Glyph List
+     Copyright 1997, 1998, 2002, 2007, 2010 Adobe Systems Incorporated.
+   • Includes the Zapf Dingbats Glyph List
+     Copyright 2002, 2010 Adobe Systems Incorporated.
+
+All trademarks and registered trademarks are the property of their respective owners.

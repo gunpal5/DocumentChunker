@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = DocumentChunker
+build_property.ProjectDir = D:\GitHub\DocumentChunker2\DocumentChunker\src\DocumentChunker\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

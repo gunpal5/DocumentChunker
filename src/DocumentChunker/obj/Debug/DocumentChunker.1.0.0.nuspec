@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DocumentChunker</id>
+    <version>1.0.0</version>
+    <title>Document Chunker SDK</title>
+    <authors>Gunpal Jain</authors>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/gunpal5/DocumentChunker</projectUrl>
+    <description>Document Chunker SDK for splitting large text contents from documents like DOCX, PDF, and HTML into smaller chunks.</description>
+    <tags>DocumentChunker,Document,Chunking,DOCX,PDF,HTML,TextProcessing</tags>
+    <repository type="git" url="https://github.com/gunpal5/DocumentChunker" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="DocumentFormat.OpenXml" version="3.2.0" exclude="Build,Analyzers" />
+        <dependency id="HtmlAgilityPack" version="1.11.72" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="PdfPig" version="0.1.9" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="DocumentFormat.OpenXml" version="3.2.0" exclude="Build,Analyzers" />
+        <dependency id="HtmlAgilityPack" version="1.11.72" exclude="Build,Analyzers" />
+        <dependency id="PdfPig" version="0.1.9" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net7.0">
+        <dependency id="DocumentFormat.OpenXml" version="3.2.0" exclude="Build,Analyzers" />
+        <dependency id="HtmlAgilityPack" version="1.11.72" exclude="Build,Analyzers" />
+        <dependency id="PdfPig" version="0.1.9" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="DocumentFormat.OpenXml" version="3.2.0" exclude="Build,Analyzers" />
+        <dependency id="HtmlAgilityPack" version="1.11.72" exclude="Build,Analyzers" />
+        <dependency id="PdfPig" version="0.1.9" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="DocumentFormat.OpenXml" version="3.2.0" exclude="Build,Analyzers" />
+        <dependency id="HtmlAgilityPack" version="1.11.72" exclude="Build,Analyzers" />
+        <dependency id="PdfPig" version="0.1.9" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="DocumentFormat.OpenXml" version="3.2.0" exclude="Build,Analyzers" />
+        <dependency id="HtmlAgilityPack" version="1.11.72" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Bcl.AsyncInterfaces" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="PdfPig" version="0.1.9" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\GitHub\DocumentChunker\src\DocumentChunker\bin\Debug\net462\DocumentChunker.dll" target="lib\net462\DocumentChunker.dll" />
+    <file src="D:\GitHub\DocumentChunker\src\DocumentChunker\bin\Debug\net6.0\DocumentChunker.dll" target="lib\net6.0\DocumentChunker.dll" />
+    <file src="D:\GitHub\DocumentChunker\src\DocumentChunker\bin\Debug\net7.0\DocumentChunker.dll" target="lib\net7.0\DocumentChunker.dll" />
+    <file src="D:\GitHub\DocumentChunker\src\DocumentChunker\bin\Debug\net8.0\DocumentChunker.dll" target="lib\net8.0\DocumentChunker.dll" />
+    <file src="D:\GitHub\DocumentChunker\src\DocumentChunker\bin\Debug\net9.0\DocumentChunker.dll" target="lib\net9.0\DocumentChunker.dll" />
+    <file src="D:\GitHub\DocumentChunker\src\DocumentChunker\bin\Debug\netstandard2.0\DocumentChunker.dll" target="lib\netstandard2.0\DocumentChunker.dll" />
+    <file src="D:\GitHub\DocumentChunker\README.md" target="\README.md" />
+  </files>
+</package>

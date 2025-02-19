@@ -1,0 +1,12 @@
+D:\GitHub\DocumentChunker\src\DocumentChunker\bin\Debug\net7.0\DocumentChunker.deps.json
+D:\GitHub\DocumentChunker\src\DocumentChunker\bin\Debug\net7.0\DocumentChunker.dll
+D:\GitHub\DocumentChunker\src\DocumentChunker\bin\Debug\net7.0\DocumentChunker.pdb
+D:\GitHub\DocumentChunker\src\DocumentChunker\obj\Debug\net7.0\DocumentChunker.csproj.AssemblyReference.cache
+D:\GitHub\DocumentChunker\src\DocumentChunker\obj\Debug\net7.0\DocumentChunker.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\DocumentChunker\src\DocumentChunker\obj\Debug\net7.0\DocumentChunker.AssemblyInfoInputs.cache
+D:\GitHub\DocumentChunker\src\DocumentChunker\obj\Debug\net7.0\DocumentChunker.AssemblyInfo.cs
+D:\GitHub\DocumentChunker\src\DocumentChunker\obj\Debug\net7.0\DocumentChunker.csproj.CoreCompileInputs.cache
+D:\GitHub\DocumentChunker\src\DocumentChunker\obj\Debug\net7.0\DocumentChunker.dll
+D:\GitHub\DocumentChunker\src\DocumentChunker\obj\Debug\net7.0\refint\DocumentChunker.dll
+D:\GitHub\DocumentChunker\src\DocumentChunker\obj\Debug\net7.0\DocumentChunker.pdb
+D:\GitHub\DocumentChunker\src\DocumentChunker\obj\Debug\net7.0\ref\DocumentChunker.dll
