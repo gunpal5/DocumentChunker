@@ -4,6 +4,7 @@ This project includes and modifies portions of open source software as follows:
 
 1) HtmlChunker
    • .NET port of https://github.com/google/labs-prototypes/blob/main/seeds/chunker-python/src/google_labs_html_chunker/html_chunker.py
+   • Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0);
    • Copyright 2023 Google LLC
 
 2) PDF Pig
